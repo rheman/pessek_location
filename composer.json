@@ -1,0 +1,25 @@
+{
+	"name": "pessek/pessek_location",
+    	"description": "Google Maps Location for ELGG",
+    	"type": "elgg-plugin",
+    	"license": "proprietary",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"maps",
+		"location"
+	],
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_location"
+	},
+    	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0"
+	}
+}
