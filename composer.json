@@ -3,6 +3,7 @@
     	"description": "Google Maps Location for ELGG",
     	"type": "elgg-plugin",
     	"license": "proprietary",
+	"version": "4.0",
 	"keywords": [
 		"elgg",
 		"plugin",
@@ -19,7 +20,16 @@
 		"installer-name": "pessek_location"
 	},
     	"require": {
-		"php": ">=7.1",
-		"composer/installers": "~1.0"
-	}
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8"
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
 }
